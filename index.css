@@ -1,0 +1,1467 @@
+* {
+    margin: 0px;
+}
+/* 顶部 */
+.header {
+    padding: 40px;
+    background-color: white;
+}
+/* 中间 */
+.section_inner_one {
+    width: 100%;
+    height: 420px;
+    background-color: #f9f9f9;
+}
+.section_inner_two {
+    width: 100%;
+    height: 490px;
+}
+.big {
+    width: 470%;
+    height: 180px;
+    padding: 133px 150px 0px 210px;
+}
+.small1 {
+    width: 470%;
+    height: 20px;
+    padding: 15px 160px 0px 210px;
+}
+.small2 {
+    width: 470%;
+    height: 20px;
+    padding: 0px 160px 0px 210px;
+}
+/* 底部一块 */
+.footer {
+    width: 100%;
+    height: 600px;
+    background-color: #333333;
+}
+.qqmusic_title {
+    width: 90px;
+    height: 33px;
+    display: inline-block;
+}
+/* QQ音乐logo */
+.QQmusic-logo img {
+    position: absolute;
+    top: 15px;
+    left: 205px;
+    width: 140px;
+}
+/* 首页一块 */
+.mod_top_nav {
+    list-style: none;
+    display: block;
+    height: 90px;
+    left: 318px;
+    position: absolute;
+    display: flex;
+    top: 0;
+}
+.mod_top_nav a {
+    display: block;
+    font-size: 14px;
+    line-height: 60px;
+    height: 69px;
+    padding: 0 13px;
+    text-decoration: none;
+}
+.mod_top_nav a:hover {
+    color: #31c27c;
+}
+/* 搜索框 */
+.top_nav__item a{
+    color: black;
+}
+.mod_search_input {
+    position: absolute;
+    display: flex;
+    top: 17px;
+    right: 380px;
+    width: 250px;
+    height: 23px;
+}
+/* 登录 */
+.top_login__link {
+    position: absolute;
+    right: 400px;
+    top: 19px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.mod_top_login a:hover {
+    color: #31c27c;
+}
+/* 开vip下拉框*/
+.dropdown {
+    position: absolute;
+    right: 270px;
+    top: 10px;
+    line-height: 35px;
+}
+.dropbtn {
+    background-color: #31c27c ;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 11px;
+    cursor: pointer;
+}
+.dropdown_content {
+    height: 40px;
+    display:none;
+    position:absolute;
+    min-width:120px;
+    z-index:1;
+    background-color: white;
+    min-width: 120px;
+}
+.dropdown_content a {
+    background-color: #f9f9f9;
+    font-size: 11px;
+    color:black;
+    text-align: center;
+    text-decoration:none;
+    display:block;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 1px;
+    border-color: rgb(225, 225, 225);
+}
+.dropdown_content a:hover {
+    background-color: #31c27c;
+    color: white;
+}
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #31c27c;
+}
+/* 充值下拉框*/
+.pay {
+    position: absolute;
+    right: 195px;
+    top: 10px;
+    line-height: 35px;
+}
+.paycz {
+    background-color: white ;
+    color: black;
+    width: 65px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    font-size: 11px;
+    cursor: pointer;
+}
+.pay_content {
+    height: 40px;
+    display:none;
+    position:absolute;
+    min-width:65px;
+    z-index:1;
+    background-color: white;
+}
+.pay_content a {
+    background-color: #f9f9f9;
+    font-size: 11px;
+    color:black;
+    text-align: center;
+    text-decoration:none;
+    display:block;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 1px;
+    border-color: rgb(225, 225, 225);
+}
+.pay_content a:hover {
+    background-color: #31c27c;
+    color: white;
+}
+.pay:hover .pay_content {
+    display: block;
+}
+.pay:hover .paycz {
+    background-color: #31c27c;
+    color: white;
+}
+/* 歌单推荐 */
+.index__hd {
+    position: absolute;
+    top: 100px;
+    left: 600px;
+}
+.index__hd a {
+    display: block;
+    font-size: 14px;
+    line-height: 60px;
+    height: 30px;
+    padding: 0 8px;
+    font-size: 25px;
+    letter-spacing: 17px;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* 首页一块 */
+.mod_top_subnav {
+    position: absolute;
+    display: flex;
+    top: 53px;
+    left: 330px;
+    list-style: none;
+}
+.mod_top_subnav a:hover{
+    color: #31c27c;
+}
+.mod_top_subnav a{
+    display: block;
+    font-size: 18px;
+    line-height: 60px;
+    height: 50px;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+    font-size: 12px;
+}
+/* 为你推荐一块 */
+.mod_index_tab {
+    position: absolute;
+    display: flex;
+    top: 200px;
+    right: 450px;
+    cursor: pointer;
+}
+.mod_index_tab a {
+    display: block;
+    padding: 0 20px;
+    font-size: 12px;
+}
+.mod_index_tab a:hover{
+    color: #31c27c;
+}
+/* flex */
+.big_one,.big_two,.big_three,.big_four,.big_five {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+.big {
+    display: flex;
+    gap: 333px;
+    flex-wrap: wrap;
+}
+.small1 {
+    display: flex;
+    gap: 358px;
+}
+.small2 {
+    display: flex;
+    gap: 430px;
+}
+.wenzi1,.wenzi2,.wenzi3,.wenzi4,.wenzi5 {
+    display: flex;
+    gap: 40px;
+}
+.bofang1,.bofang2,.bofang3,.bofang4,.bofang5 {
+    display: flex;
+    gap: 122px;
+}
+/* 字 */
+.small1 a {
+    font-size: 11px;
+}
+.small2 p {
+    font-size: 11px;
+}
+.mod_index_imgone_one {
+    padding-right: 12px;
+}
+.mod_index_imgthree_one {
+    padding-right: 17px;
+}
+.mod_index_imgfour_one {
+    padding-right: 40px;
+}
+.small1 a{
+    cursor: pointer;
+}
+.small1 a:hover {
+    color: #31c27c;
+}
+/* 放大效果 */
+.one,.two,.three,.four,.five,.onebt,.twobt,.threebt,.fourbt,.fivebt,.onebh,.twobh,.threebh,.fourbh,.fivebh,.onebf,.twobf,.threebf,.fourbf,.fivebf,.onebv,.twobv,.threebv,.fourbv,.fivebv{
+    display: block;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+}
+.one>img,.two>img,.three>img,.four>img,.five>img,.onebt>img,.twobt>img,.threebt>img,.fourbt>img,.fivebt>img,.onebh>img,.twobh>img,.threebh>img,.fourbh>img,.fivebh>img,.onebf>img,.twobf>img,.threebf>img,.fourbf>img,.fivebf>img,.onebv>img,.twobv>img,.threebv>img,.fourbv>img,.fivebv>img {
+    width: 100%; 
+    height: 100%;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+.mod_index_imgone:hover .one img {
+    transform: scale(1.1);
+} 
+.mod_index_bt1:hover .onebt img {
+    transform: scale(1.1);
+} 
+.mod_index_bh1:hover .onebh img {
+    transform: scale(1.1);
+} 
+.mod_index_bf1:hover .onebf img {
+    transform: scale(1.1);
+} 
+.mod_index_bv1:hover .onebv img {
+    transform: scale(1.1);
+} 
+
+.mod_index_imgtwo:hover .two img {
+    transform: scale(1.1);
+} 
+.mod_index_bt2:hover .twobt img {
+    transform: scale(1.1);
+} 
+.mod_index_bh2:hover .twobh img {
+    transform: scale(1.1);
+} 
+.mod_index_bf2:hover .twobf img {
+    transform: scale(1.1);
+} 
+.mod_index_bv2:hover .twobv img {
+    transform: scale(1.1);
+} 
+
+.mod_index_imgthree:hover .three img {
+    transform: scale(1.1);
+} 
+.mod_index_bt3:hover .threebt img {
+    transform: scale(1.1);
+} 
+.mod_index_bh3:hover .threebh img {
+    transform: scale(1.1);
+} 
+.mod_index_bf3:hover .threebf img {
+    transform: scale(1.1);
+} 
+.mod_index_bv3:hover .threebv img {
+    transform: scale(1.1);
+} 
+
+.mod_index_imgfour:hover .four img {
+    transform: scale(1.1);
+} 
+.mod_index_bt4:hover .fourbt img {
+    transform: scale(1.1);
+} 
+.mod_index_bh4:hover .fourbh img {
+    transform: scale(1.1);
+} 
+.mod_index_bf4:hover .fourbf img {
+    transform: scale(1.1);
+} 
+.mod_index_bv4:hover .fourbv img {
+    transform: scale(1.1);
+} 
+.mod_index_imgfive:hover .five img {
+    transform: scale(1.1);
+} 
+.mod_index_bt5:hover .fivebt img {
+    transform: scale(1.1);
+} 
+.mod_index_bh5:hover .fivebh img {
+    transform: scale(1.1);
+} 
+.mod_index_bf5:hover .fivebf img {
+    transform: scale(1.1);
+} 
+.mod_index_bv5:hover .fivebv img {
+    transform: scale(1.1);
+} 
+/* 播放器 */
+.wsbf1 {
+    position: absolute;
+    top: 320px;
+    left: 280px;
+}
+.wsbf2 {
+    position: absolute;
+    top: 320px;
+    left: 480px;
+}
+.wsbf3 {
+    position: absolute;
+    top: 320px;
+    left: 680px;
+}
+.wsbf4 {
+    position: absolute;
+    top: 320px;
+    left: 880px;
+}
+.wsbf5 {
+    position: absolute;
+    top: 320px;
+    left: 1080px;
+}
+.wsbfbt1 {
+    position: absolute;
+    top: 320px;
+    left: 1600px
+}
+.wsbfbt2 {
+    position: absolute;
+    top: 320px;
+    left: 1800px
+}
+.wsbfbt3 {
+    position: absolute;
+    top: 320px;
+    left: 2000px
+}
+.wsbfbt4 {
+    position: absolute;
+    top: 320px;
+    left: 2200px
+}
+.wsbfbt5 {
+    position: absolute;
+    top: 320px;
+    left: 2400px
+}
+.wsbfbh1 {
+    position: absolute;
+    top: 320px;
+    left: 2910px;
+}
+.wsbfbh2 {
+    position: absolute;
+    top: 320px;
+    left: 3110px
+}
+.wsbfbh3 {
+    position: absolute;
+    top: 320px;
+    left: 3310px
+}
+.wsbfbh4 {
+    position: absolute;
+    top: 320px;
+    left: 3510px
+}
+.wsbfbh5 {
+    position: absolute;
+    top: 320px;
+    left: 3710px
+}
+
+.wsbfbf1 {
+    position: absolute;
+    top: 320px;
+    left: 4220px;
+}
+.wsbfbf2 {
+    position: absolute;
+    top: 320px;
+    left: 4420px
+}
+.wsbfbf3 {
+    position: absolute;
+    top: 320px;
+    left: 4620px
+}
+.wsbfbf4 {
+    position: absolute;
+    top: 320px;
+    left: 4820px
+}
+.wsbfbf5 {
+    position: absolute;
+    top: 320px;
+    left: 5020px
+}
+
+.wsbfbv1 {
+    position: absolute;
+    top: 320px;
+    left: 5530px;
+}
+.wsbfbv2 {
+    position: absolute;
+    top: 320px;
+    left: 5730px
+}
+.wsbfbv3 {
+    position: absolute;
+    top: 320px;
+    left: 5930px
+}
+.wsbfbv4 {
+    position: absolute;
+    top: 320px;
+    left: 6130px
+}
+.wsbfbv5 {
+    position: absolute;
+    top: 320px;
+    left: 6330px
+}
+.wsbf1,.wsbf2,.wsbf3,.wsbf4,.wsbf5,.wsbfbt1,.wsbfbt2,.wsbfbt3,.wsbfbt4,.wsbfbt5,.wsbfbh1,.wsbfbh2,.wsbfbh3,.wsbfbh4,.wsbfbh5,.wsbfbf1,.wsbfbf2,.wsbfbf3,.wsbfbf4,.wsbfbf5,.wsbfbv1,.wsbfbv2,.wsbfbv3,.wsbfbv4,.wsbfbv5 {
+    width: 40px;
+    height: 40px;
+}
+.wsbf1>img,.wsbf2>img,.wsbf3>img,.wsbf4>img,.wsbf5>img,.wsbfbt1>img,.wsbfbt2>img,.wsbfbt3>img,.wsbfbt4>img,.wsbfbt5>img,.wsbfbh1>img,.wsbfbh2>img,.wsbfbh3>img,.wsbfbh4>img,.wsbfbh5>img,.wsbfbf1>img,.wsbfbf2>img,.wsbfbf3>img,.wsbfbf4>img,.wsbfbf5>img,.wsbfbv1>img,.wsbfbv2>img,.wsbfbv3>img,.wsbfbv4>img,.wsbfbv5>img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.mod_index_imgone:hover .wsbf1>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_imgtwo:hover .wsbf2>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_imgthree:hover .wsbf3>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_imgfour:hover .wsbf4>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_imgfive:hover .wsbf5>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bt1:hover .wsbfbt1>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bt2:hover .wsbfbt2>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bt3:hover .wsbfbt3>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bt4:hover .wsbfbt4>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bt5:hover .wsbfbt5>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bh1:hover .wsbfbh1>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bh2:hover .wsbfbh2>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bh3:hover .wsbfbh3>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bh4:hover .wsbfbh4>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bh5:hover .wsbfbh5>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bf1:hover .wsbfbf1>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bf2:hover .wsbfbf2>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bf3:hover .wsbfbf3>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bf4:hover .wsbfbf4>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bf5:hover .wsbfbf5>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bv1:hover .wsbfbv1>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bv2:hover .wsbfbv2>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bv3:hover .wsbfbv3>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bv4:hover .wsbfbv4>img {
+    display: block;
+    transform: scale(1.1);
+}
+.mod_index_bv5:hover .wsbfbv5>img {
+    display: block;
+    transform: scale(1.1);
+}
+/* 蒙层 */
+.wsmc1,.wsmc2,.wsmc3,.wsmc4,.wsmc5,.wsmcbt1,.wsmcbt2,.wsmcbt3,.wsmcbt4,.wsmcbt5,.wsmcbh1,.wsmcbh2,.wsmcbh3,.wsmcbh4,.wsmcbh5,.wsmcbf1,.wsmcbf2,.wsmcbf3,.wsmcbf4,.wsmcbf5,.wsmcbv1,.wsmcbv2,.wsmcbv3,.wsmcbv4,.wsmcbv5 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 250px;
+}
+.mod_index_imgone:hover .wsmc1 {
+    display: block;
+}
+.mod_index_imgtwo:hover .wsmc2 {
+    display: block;
+}
+.mod_index_imgthree:hover .wsmc3 {
+    display: block;
+}
+.mod_index_imgfour:hover .wsmc4 {
+    display: block;
+}
+.mod_index_imgfive:hover .wsmc5 {
+    display: block;
+}
+.mod_index_bt1:hover .wsmcbt1 {
+    display: block;
+}
+.mod_index_bt2:hover .wsmcbt2 {
+    display: block;
+}
+.mod_index_bt3:hover .wsmcbt3 {
+    display: block;
+}
+.mod_index_bt4:hover .wsmcbt4 {
+    display: block;
+}
+.mod_index_bt5:hover .wsmcbt5 {
+    display: block;
+}
+.mod_index_bh1:hover .wsmcbh1 {
+    display: block;
+}
+.mod_index_bh2:hover .wsmcbh2 {
+    display: block;
+}
+.mod_index_bh3:hover .wsmcbh3 {
+    display: block;
+}
+.mod_index_bh4:hover .wsmcbh4 {
+    display: block;
+}
+.mod_index_bh5:hover .wsmcbh5 {
+    display: block;
+}
+.mod_index_bf1:hover .wsmcbf1 {
+    display: block;
+}
+.mod_index_bf2:hover .wsmcbf2 {
+    display: block;
+}
+.mod_index_bf3:hover .wsmcbf3 {
+    display: block;
+}
+.mod_index_bf4:hover .wsmcbf4 {
+    display: block;
+}
+.mod_index_bf5:hover .wsmcbf5 {
+    display: block;
+}
+.mod_index_bv1:hover .wsmcbv1 {
+    display: block;
+}
+.mod_index_bv2:hover .wsmcbv2 {
+    display: block;
+}
+.mod_index_bv3:hover .wsmcbv3 {
+    display: block;
+}
+.mod_index_bv4:hover .wsmcbv4 {
+    display: block;
+}
+.mod_index_bv5:hover .wsmcbv5 {
+    display: block;
+}
+/* 五个点 */
+.btnlist {
+    position: absolute;
+    top: 490px;
+    left: 47%;
+    transform: -50%,0;
+    display: flex;
+}
+.btnlist span {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    display: block;
+    margin-right: 15px;
+}
+.btnlist span:last-child {
+    margin-right: 0;
+}
+.promax {
+    background-color: rgba(0, 0, 0, 0.6)!important;
+}
+.left_btn,.right_btn {
+    position: absolute;
+    top: 320px;
+}
+.left_btn {
+    left: 0;
+    font-size: 50px;
+    color: black;
+    font-weight: lighter;
+}
+.right_btn {
+    right: 0;
+    font-size: 50px;
+    color: black;
+    font-weight: lighter;
+}
+/* 新歌首发 */
+.index_nf {
+    position: absolute;
+    top: 530px;
+    left:600px ;
+}
+.index_nf a {
+    font-size: 14px;
+    line-height: 60px;
+    height: 30px;
+    padding: 0 8px;
+    font-size: 25px;
+    letter-spacing: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+/* 播放全部 */
+.index__bf {
+    position: absolute;
+    top: 590px;
+    left: 210px;
+    width: 80px;
+}
+/* 最新一块 */
+.mod_index_item {
+    position: absolute;
+    display: flex;
+    top: 570px;
+    left: 480px;
+    list-style: none;
+}
+.mod_index_item a{
+    display: block;
+    font-size: 18px;
+    line-height: 60px;
+    height: 40px;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+    font-size: 12px;
+}
+.mod_index_item a:hover {
+    color: #31c27c;
+    cursor: pointer;
+}
+/* 第二栏第一个图 */
+.index_item_imageone img {
+    position: absolute;
+    top: 680px;
+    left: 210px;
+    width: 78px;
+}
+.index_item_imageone_one {
+    position: absolute;
+    top: 710px;
+    left: 310px;
+    font-size: 11px;
+}
+.index_item_imageone_two {
+    position: absolute;
+    top: 729px;
+    left: 310px;
+    font-size: 11px;
+    color: rgb(153, 153, 153);
+}
+.index_item_imageone_three {
+    position: absolute;
+    top: 729px;
+    left: 450px;
+    font-size: 11px;
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+}
+.index_item_imageone p:hover {
+    color: #31c27c;
+    cursor: pointer;
+}
+
+/* 第二个图 */
+.index_item_imagetwo img{
+    position: absolute;
+    top: 680px;
+    left: 510px;
+    width: 78px;
+}
+.index_item_imagetwo_one {
+    position: absolute;
+    top: 710px;
+    left: 630px;
+    font-size: 11px;
+}
+.index_item_imagetwo_two {
+    position: absolute;
+    top: 729px;
+    left: 630px;
+    font-size: 11px;
+    color: rgb(153, 153, 153);
+}
+.index_item_imagetwo_three {
+    position: absolute;
+    top: 729px;
+    left: 770px;
+    font-size: 11px;
+    cursor: pointer;
+    color: rgb(153, 153, 153);
+}
+.index_item_imagetwo p:hover {
+    cursor: pointer;
+    color: #31c27c;
+}
+/* 第三个图 */
+.index_item_imagethree img{
+    position: absolute;
+    top: 680px;
+    left: 850px;
+    width: 78px;
+}
+.index_item_imagethree_one {
+    position: absolute;
+    top: 710px;
+    left: 960px;
+    font-size: 11px;
+}
+.index_item_imagethree_two {
+    position: absolute;
+    top: 729px;
+    left: 960px;
+    font-size: 11px;
+    color: rgb(153, 153, 153);
+}
+.index_item_imagethree_three {
+    position: absolute;
+    top: 729px;
+    left: 1090px;
+    font-size: 11px;
+    cursor: pointer;
+    color: rgb(153, 153, 153);
+}
+.index_item_imagethree p:hover {
+    color: #31c27c;
+    cursor: pointer;
+}
+/* 第四个图 */
+.index_item_imagefour img {
+    position: absolute;
+    top: 780px;
+    left: 210px;
+    width: 78px;
+}
+.index_item_imagefour_one {
+    position: absolute;
+    top: 800px;
+    left: 310px;
+    font-size: 11px;
+}
+.index_item_imagefour_two {
+    position: absolute;
+    top: 820px;
+    left: 310px;
+    font-size: 11px;
+    color: rgb(153, 153, 153);
+}
+.index_item_imagefour_three {
+    position: absolute;
+    top: 820px;
+    left: 450px;
+    font-size: 11px;
+    cursor: pointer;
+    color: rgb(153, 153, 153);
+}
+.index_item_imagefourn P:hover{
+    color: #31c27c;
+    cursor: pointer;
+}
+/* 第五个图 */
+.index_item_imagefive img{
+    position: absolute;
+    top: 780px;
+    left: 510px;
+    width: 78px;
+}
+.index_item_imagefive_one {
+    position: absolute;
+    top: 800px;
+    left: 630px;
+    font-size: 11px;
+}
+.index_item_imagefive_two {
+    position: absolute;
+    top: 820px;
+    left: 630px;
+    font-size: 11px;
+    color: rgb(153, 153, 153);
+}
+.index_item_imagefive_three {
+    position: absolute;
+    top: 820px;
+    left: 770px;
+    font-size: 11px;
+    cursor: pointer;
+    color: rgb(153, 153, 153);
+}
+.index_item_imagesix_two ，.index_item_imagefive p:hover{
+    color: #31c27c;
+    cursor: pointer;
+}
+/* 第六个图 */
+.index_item_imagesix img{
+    position: absolute;
+    top: 780px;
+    left: 850px;
+    width: 78px;
+}
+.index_item_imagesix_one {
+    position: absolute;
+    top: 800px;
+    left: 960px;
+    font-size: 11px;
+}
+.index_item_imagesix_two {
+    position: absolute;
+    top: 820px;
+    left: 960px;
+    font-size: 11px;
+    color: rgb(153, 153, 153);
+}
+.index_item_imagesix_three {
+    position: absolute;
+    top: 820px;
+    left: 1090px;
+    font-size: 11px;
+    cursor: pointer;
+    color: rgb(153, 153, 153);
+}
+.index_item_imagesix p:hover {
+    cursor: pointer;
+    color: #31c27c;
+}
+/* 第七个图 */
+.index_item_imageseven  img {
+    position: absolute;
+    top: 880px;
+    left: 210px;
+    width: 78px;
+}
+.index_item_imageseven_one {
+    position: absolute;
+    top: 910px;
+    left: 310px;
+    font-size: 11px;
+}
+.index_item_imageseven_two {
+    position: absolute;
+    top: 930px;
+    left: 310px;
+    font-size: 11px;
+    color: rgb(153, 153, 153);
+}
+.index_item_imageseven_three {
+    position: absolute;
+    top: 930px;
+    left: 450px;
+    font-size: 11px;
+    cursor: pointer;
+    color: rgb(153, 153, 153);
+}
+.index_item_imageseven p:hover{
+    color: #31c27c;
+    cursor: pointer;
+}
+/* 第八个图 */
+.index_item_imageeight img{
+    position: absolute;
+    top: 880px;
+    left: 510px;
+    width: 78px;
+}
+.index_item_imageeight_one {
+    position: absolute;
+    top: 910px;
+    left: 630px;
+    font-size: 11px;
+}
+.index_item_imageeight_two {
+    position: absolute;
+    top: 930px;
+    left: 630px;
+    font-size: 11px;
+    color: rgb(153, 153, 153);
+}
+.index_item_imageeight_three {
+    position: absolute;
+    top: 930px;
+    left: 770px;
+    font-size: 11px;
+    cursor: pointer;
+    color: rgb(153, 153, 153);
+}
+.index_item_imageeight p:hover {
+    color: #31c27c;
+    cursor: pointer;
+}
+/* 第九个图 */
+.index_item_imagenine img{
+    position: absolute;
+    top: 880px;
+    left: 850px;
+    width: 78px;
+}
+.index_item_imagenine_one {
+    position: absolute;
+    top: 910px;
+    left: 960px;
+    font-size: 11px;
+}
+.index_item_imagenine_two {
+    position: absolute;
+    top: 930px;
+    left: 960px;
+    font-size: 11px;
+    color: rgb(153, 153, 153);
+}
+.index_item_imagenine_three {
+    position: absolute;
+    top: 930px;
+    left: 1090px;
+    font-size: 11px;
+    cursor: pointer;
+    color: rgb(153, 153, 153);
+}
+.index_item_imagenine p:hover{
+    color: #31c27c;
+    cursor: pointer;
+}
+
+/* 下载客户端 */
+.client {
+    position: absolute;
+    top: 1115px;
+    left: 205px;
+    font-size: 12px;
+    color: #7F7F7F;
+}
+/* pc端 */
+.versons_pc img {
+    position: absolute;
+    top: 1160px;
+    left: 205px;
+    cursor: pointer;
+    width: 34px;
+}
+.versons_pc p {
+    position: absolute;
+    top: 1209px;
+    left: 209px;
+    color: #7F7F7F;
+    cursor: pointer;
+    font-size: 11px;
+}
+.versons_pc p:hover {
+    color: #31c27c;
+}
+/* mac端 */
+.versons_mac img {
+    position: absolute;
+    top:1160px ;
+    left: 272px;
+    cursor: pointer;
+    width: 61px;
+}
+.versons_mac p {
+    position: absolute;
+    top: 1209px;
+    left: 284px;
+    color: #7F7F7F;
+    cursor: pointer;
+    font-size: 11px;
+}
+.versons_mac p:hover {
+    color: #31c27c;
+}
+/* 安卓版 */
+.versons_anzhuo img {
+    position: absolute;
+    top:1155px ;
+    left: 355px;
+    cursor: pointer;
+    width: 50px;
+}
+.versons_anzhuo p {
+    position: absolute;
+    top: 1210px;
+    left: 356px;
+    color: #7F7F7F;
+    cursor: pointer;
+    font-size: 11px;
+}
+.versons_anzhuo p:hover {
+    color: #31c27c;
+}
+/* ios */
+.versons_ios img {
+    position: absolute;
+    top:1158px ;
+    left: 428px;
+    width: 50px;
+    cursor: pointer;
+}
+.versons_ios p {
+    position: absolute;
+    top: 1210px;
+    left: 432px;
+    color: #7F7F7F;
+    font-size: 11px;
+    cursor: pointer;
+}
+.versons_ios p:hover {
+    color: #31c27c;
+}
+
+
+/* 特色产品 */
+.feature {
+    position: absolute;
+    top: 1115px;
+    left: 559px;
+    font-size: 12px;
+    color: #7F7F7F;
+}
+/* k歌 */
+.ksong img {
+    position: absolute;
+    top:1158px ;
+    left: 556px;
+    width: 43px;
+    cursor: pointer;
+}
+.ksong div {
+    position: absolute;
+    top: 1210px;
+    left: 558px;
+    color: #7F7F7F;
+    font-size: 11px;
+    cursor: pointer;
+}
+.ksong div:hover {
+    color: #31c27c;
+}
+/* 银河音效 */
+.yinhe img {
+    position: absolute;
+    top:1160px ;
+    left: 638px;
+    width: 36px;
+    cursor: pointer;
+}
+.yinhe div {
+    position: absolute;
+    top: 1210px;
+    left: 636px;
+    color: #7F7F7F;
+    font-size: 11px;
+    cursor: pointer;
+}
+.yinhe div:hover {
+    color: #31c27c;
+}
+/* qplay */
+.qplay img {
+    position: absolute;
+    top:1158px ;
+    left: 714px;
+    width: 34px;
+    cursor: pointer;
+}
+.qplay div {
+    position: absolute;
+    top: 1210px;
+    left: 716px;
+    color: #7F7F7F;
+    font-size: 11px;
+    cursor: pointer;
+}
+.qplay div:hover {
+    color: #31c27c;
+}
+/* 伴侣 */
+.banlv img{
+    position: absolute;
+    top:1158px ;
+    left: 789px;
+    width: 40px;
+    cursor: pointer;
+}
+.banlv div {
+    position: absolute;
+    top: 1210px;
+    left: 780px;
+    color: #7F7F7F;
+    font-size: 11px;
+    cursor: pointer;
+}
+.banlv div:hover {
+    color: #31c27c;
+}
+/* 车载和演出 */
+.chezai {
+    position: absolute;
+    top: 1240px;
+    left: 558px;
+    color: #7F7F7F;
+    font-size: 11px;
+    cursor: pointer;
+}
+.chezai:hover {
+    color: #31c27c;
+}
+.qyanchu {
+    position: absolute;
+    top: 1240px;
+    left: 628px;
+    color: #7F7F7F;
+    font-size: 11px;
+    cursor: pointer;
+}
+.qyanchu:hover {
+    color: #31c27c;
+}
+/* 合作 */
+.hezuo {
+    position: absolute;
+    top: 1115px;
+    left: 920px;
+    font-size: 12px;
+    color: #7F7F7F;
+}
+
+.hezuo_one {
+    position: absolute;
+    top: 1155px;
+    left: 880px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.hezuo_one a {
+    display: block;
+    font-size: 11px;
+    text-decoration: none;
+    color: #7F7F7F;
+    height: 25px;
+    cursor: pointer;
+}
+.hezuo_one :hover {
+    color: #31c27c;
+}
+
+.hezuo_two {
+    position: absolute;
+    top: 1155px;
+    left: 960px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.hezuo_two a {
+    display: block;
+    font-size: 11px;
+    text-decoration: none;
+    color: #7F7F7F;
+    cursor: pointer;
+    height: 25px;
+}
+.hezuo_two :hover {
+    color: #31c27c;
+}
+.hezuo_three {
+    position: absolute;
+    top: 1155px;
+    left: 1040px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.hezuo_three a {
+    display: block;
+    font-size: 11px;
+    text-decoration: none;
+    color: #7F7F7F;
+    cursor: pointer;
+    height: 25px;
+}
+.hezuo_three :hover {
+    color: #31c27c;
+}
+/* 开放平台 */
+.platform {
+    position: absolute;
+    top: 1355px;
+    left: 205px;
+    font-size: 12px;
+    color: #7F7F7F;
+}
+.QQplatform {
+    position: absolute;
+    top: 1398px;
+    left: 205px;
+    font-size: 11px;
+    color: #7F7F7F;
+    cursor: pointer;
+}
+.qimingxing {
+    position: absolute;
+    display: block;
+    top: 1430px;
+    left:205px;
+    font-size: 11px;
+    color: #7F7F7F;
+    cursor: pointer;
+}
+.zhenpin {
+    position: absolute;
+    display: block;
+    top: 1462px;
+    left:205px;
+    font-size: 11px;
+    color: #7F7F7F;
+    cursor: pointer;
+}
+.musicer {
+    position: absolute;
+    top:1398px;
+    left:325px;
+    font-size: 11px;
+    color: #7F7F7F;
+    cursor: pointer;
+}
+.tuiguang {
+    position: absolute;
+    top: 1398px;
+    left:410px;
+    font-size: 11px;
+    color: #7F7F7F;
+    cursor: pointer;
+}
+.TME {
+    position: absolute;
+    top: 1430px;
+    left:410px;
+    font-size: 11px;
+    color: #7F7F7F;
+}
+.tengxun {
+    position: absolute;
+    top: 1395px;
+    left: 559px;
+    font-size: 11px;
+    color: #7F7F7F;
+}
+.jituan {
+    position: absolute;
+    top:1355px;
+    left:559px;
+    font-size: 12px;
+    color: #7F7F7F;
+}
+.weibu :hover {
+    color: #31c27c;
+}
+.weibu {
+    cursor: pointer;
+}
+/* jiewei */
+.last_one {
+    position: absolute;
+    display: block;
+    top: 1520px;
+    right: 390px;
+}
+.last_one a {
+    text-decoration: none;
+    color: #7F7F7F;
+    font-size: 10px;
+}
+
+.last_two {
+    position: absolute;
+    display: block;
+    top: 1545px;
+    right: 550px;
+}
+.last_two a {
+    text-decoration: none;
+    color: #7F7F7F;
+    font-size: 10px;
+}
+
+.last_three {
+    position: absolute;
+    display: block;
+    top: 1575px;
+    right: 240px;
+}
+.last_three a {
+    text-decoration: none;
+    color: #7F7F7F;
+    font-size: 10px;
+}
+.last :hover {
+    color: #31c27c;
+}
+.last {
+    cursor: pointer;
+}
